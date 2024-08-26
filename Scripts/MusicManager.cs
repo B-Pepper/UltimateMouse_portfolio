@@ -224,13 +224,6 @@ public class MusicManager : MonoBehaviour
     /// <returns></returns>
     private IEnumerator LoopTime(int id, float time, bool loop)
     {
-        /*
-        Debug.Log("LoopTime => Start");
-        Debug.Log("id is :"+id);
-        Debug.Log("time is :"+time);
-        Debug.Log("loop is :"+loop);
-        Debug.Log("instance is :"+bgmLoop);
-        */
         if(!loop)
         {
             StopBGM(id);
@@ -306,8 +299,7 @@ public class MusicManager : MonoBehaviour
             }
     }
 
-
-    // デリゲートを引数とした関数を利用しているため、三つに関数を分けています
+    // 264行目にてデリゲートで利用しているため、三つに関数を分けています
 
     /// <summary>
     /// BGM音量を更新

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Video;
 
 /// <summary>
-/// たぶん使ってないけど、パネル切り替えで動画再生するやつ
+/// パネル切り替えにより動画を再生
 /// MovieManagerを継承
 /// </summary>
 public class LoadMovie : MovieManager<LoadMovie>
